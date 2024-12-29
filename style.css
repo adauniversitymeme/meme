@@ -59,7 +59,7 @@ body{
 .Situation textarea{
     background-color: black;
     color: white;
-    width: 50%;
+    width: 60%;
     height: 60%;
     padding: 1.5% 2.5%;
     border-radius: 4px;
@@ -69,6 +69,7 @@ body{
     resize: none;
     text-align: left;
     font-size: 300%;
+    margin-left: 20%;
     margin-top: 5%;
 }
 hr{
