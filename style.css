@@ -92,7 +92,7 @@ hr{
   text-decoration: none #000000 solid;
   text-decoration-thickness: auto;
   width: 100%;
-  max-width: 460px;
+  max-width: 40%;
   position: relative;
   cursor: pointer;
   transform: rotate(-2deg);
@@ -132,14 +132,10 @@ hr{
 footer{
     background-color: #000000;
     width: 100%;
-    position: relative;
-    display: flex;
     align-items: center;
-    justify-content: flex;
 }
 footer img{
     height: 100px;
-
 }
 footer p{
     color: white;
@@ -149,10 +145,10 @@ footer p{
     margin-right: 60%;
 }
 img#randomMeme{
-    max-height: 1080px;
-    max-width: 1080px;
-    min-height: 540px;
-    min-width: 540px;
+    max-height: 90%;
+    max-width: 90%;
+    min-height: 45%;
+    min-width: 45%;
     border: 2px;
     border-style: solid;
     margin-bottom: 5%;
