@@ -1,1 +1,52 @@
-<p>salam</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Meme</title>
+    <link rel="icon" href="picture/Başlıqsız dizayn1.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Basliq">
+        <a href="https://www.instagram.com/ada.university.meme/"  target="_blank"><img class="icon" src='picture/Başlıqsız dizayn.png' onmouseover="this.src='picture/Başlıqsız dizayn1.png';" onmouseout="this.src='picture/Başlıqsız dizayn.png';" /></a>
+        <h1>Custom Meme Maker</h1>
+    </div>
+    <div class="info">
+        <h2>About this website</h2>
+        <p>This website's goal is to enjoy students with memes which are created by themselves to share among other students.</p>
+        <br>
+        <h2>How to use this website?</h2>
+        <p>There is button about Random Meme generator. Click on it to get meme. You have 2 options: First you can get meme first then write situation. Second option is first write situation then Generate random meme. Note: Second situation can not be appropriate with situation</p>
+        <h1>Have a fun!</h1>
+    </div>
+    <hr>
+    <div class="Meme">
+        <button id="random" class="button-53" role="button" onclick="generateRandomImage()">Generate Random Meme</button>
+        <script>
+            const salam='Memes/';
+            const sagol='.jpg';
+            const images=["1a55a", "1agnf", "1bgw", "1bim", "1buxli", "1dz4xa", "1h7in3", "1hj6i2", "1j1pyb", "1j7rqt", "1joc8h", "1otk96", "2atw8c", "2b5p", "2fm6x", "2hgfw", "2p3dw0", "2pkdw4", "2so1le", "2wifvo", "2yn2xy", "2z9ixy", "2zj3", "2zxa17", "3bdd27", "3e5sun", "3ho6l0", "3jgukd", "3lmzyx", "3m5mp", "3si4", "3u04h5", "4bh6h", "4rylcm", "5blorg", "5mir21", "5o32tt", "5tbqc0", "6mkg", "6woq7y", "7bk2", "7bv2j9", "7iskwn", "8d317n", "8gmiw7", "8h0c8", "8p0a", "9au02y", "14wa6i", "18ps27", "26am", "26hb", "29gymp", "29s5ao", "30r1af", "31e42m", "33rsw", "33t1zc", "35fmu0", "39osmx", "39t1o", "45oewu", "49a5w7", "51s5", "56p56k", "64sz4u", "65exzi", "70op6j", "75awb", "86vlk", "91i10d", "96v08g (1)", "96v08g", "145qvv", "475uja", "89148o", "amuvy", "brbbk", "c6kz", "ca3z3", "e8gx0", "ehuy4", "ere3z", "g9odq", "gk5el", "h62sv", "hafl", "lntct", "of959", "p0a19", "ph0di", "qiev6", "qkbjv", "sa", "wczz", "z55dp"];
+            function generateRandomImage() {
+                const randomIndex = Math.floor(Math.random() * images.length); 
+                const imageElement = document.getElementById('randomMeme'); 
+                imageElement.src = salam + images[randomIndex] + sagol; 
+                imageElement.style.display = 'block'; 
+        }        
+document.getElementById('generateButton').addEventListener('click', generateRandomImage); 
+        </script>
+    </div>
+    <div class="Situation">
+        <label for="meme">Write a situation</label><br>
+        <textarea></textarea>
+    </div>
+    <br>
+    <img id="randomMeme" src="" alt="Random Image" style="display:none; margin-top: 20px;">
+</body>
+<footer>
+    <p>
+        ©ada.university.meme
+    </p>
+    <a href="https://www.instagram.com/ada.university.meme/"><img class="instagram" src="picture/Instagram_logo.png" target="_blank"></a>
+</footer>
+</html>
