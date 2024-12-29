@@ -57,15 +57,15 @@ body{
     background-color: black;
     color: white;
     width: 40%;
-    height: 200px;
-    padding: 12px 20px;
+    height: 300px;
+    padding: 1.5% 2.5%;
     border-radius: 4px;
     margin: 8px 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     resize: none;
     text-align: left;
-    font-size: 40px;
+    font-size: 300%;
     margin-left: 30%;
     margin-top: 5%;
 }
@@ -99,7 +99,7 @@ hr{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 35%;
+  margin-left: 30%;
   margin-bottom: 5%;
 }
 
