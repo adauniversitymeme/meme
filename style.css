@@ -53,6 +53,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     padding-left: 29%;
     font-size: 400%;
+    
 }
 
 .Situation textarea{
@@ -68,7 +69,6 @@ body{
     resize: none;
     text-align: left;
     font-size: 300%;
-    margin-left: 25%;
     margin-top: 5%;
 }
 hr{
