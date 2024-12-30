@@ -78,13 +78,12 @@ img.icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .Situation textarea::placeholder {
     color: #888888;
     font-size: 1.5rem;
-    font-family: cursive;
     font-weight: bold;
     font-style: italic;
     opacity: 1;
@@ -97,9 +96,10 @@ img.icon {
     color: black;
     width: 50%;
     height: 200px;
-    padding: 1.5% 2.5% 0.5% 2.5%;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 1.5% 2.5% 0 2.5%;
     border-radius: 4px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     resize: none;
     font-size: 200%;
     box-sizing: border-box;
@@ -135,7 +135,8 @@ hr {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin-left: 27%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
 }
 
