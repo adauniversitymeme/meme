@@ -86,6 +86,7 @@ img.icon {
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 1;
     color: black;
 }
