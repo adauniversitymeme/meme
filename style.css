@@ -87,6 +87,7 @@ img.icon {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     opacity: 1;
+    color: black;
 }
 
 .Situation textarea {
